@@ -1,0 +1,57 @@
+File,Column,Data Type,Description,Source/Formula
+BI_Sales_Main.csv,Order ID,Text,Ma don hang (dung de nhom va dem distinct),Goc
+BI_Sales_Main.csv,Product,Text,Ten san pham,Goc
+BI_Sales_Main.csv,Category,Text,"Nhom lon: Electronics, Audio, Accessories, Home Appliances",NLP: Tokenization + Keyword Taxonomy
+BI_Sales_Main.csv,SubCategory,Text,"Nhom con: Phones, Laptops, Monitors, TVs, Headphones, Cables, Batteries, Laundry",NLP: Tokenization + Keyword Taxonomy
+BI_Sales_Main.csv,Quantity Ordered,Number,So luong san pham trong dong nay,Goc
+BI_Sales_Main.csv,Price Each,Currency (USD),Don gia san pham,Goc
+BI_Sales_Main.csv,Sales,Currency (USD),Doanh thu dong nay = Quantity Ordered x Price Each,Goc
+BI_Sales_Main.csv,Order Date,Datetime,Thoi gian dat hang (YYYY-MM-DD HH:MM:SS),Goc
+BI_Sales_Main.csv,Month,Number,Thang (1-12),Goc
+BI_Sales_Main.csv,Hour,Number,Gio dat hang (0-23),Goc
+BI_Sales_Main.csv,DayOfWeek,Text,"Thu trong tuan: Monday, Tuesday, ..., Sunday",Tinh tu Order Date
+BI_Sales_Main.csv,DayType,Text,"Weekday (Thu 2-6) hoac Weekend (Thu 7, CN)",Tinh tu DayOfWeek
+BI_Sales_Main.csv,Date,Date,Ngay (YYYY-MM-DD) - khong co gio,Tinh tu Order Date
+BI_Sales_Main.csv,City,Text,"Thanh pho: San Francisco, Los Angeles, New York City, Boston, Atlanta, Dallas, Seattle, Portland, Austin",Goc (da strip khoang trang)
+BI_Sales_Main.csv,Purchase Address,Text,Dia chi giao hang day du,Goc
+BI_Sales_Main.csv,Order_Value,Currency (USD),Tong gia tri toan bo don hang (sum Sales cua cung Order ID),Tinh: groupby Order ID -> sum Sales
+BI_Sales_Main.csv,Order_Segment,Text,"Phan khuc don hang: Low (<=33%), Medium (33-66%), High (>66%)",Tinh: phan vi 33/66 cua Order_Value
+BI_Sales_Main.csv,Items_In_Order,Number,So dong san pham trong don hang,Tinh: groupby Order ID -> count Product
+BI_Sales_Main.csv,Is_Multi_Product,Number (0/1),Don hang co >= 2 san pham hay khong (1 = co; 0 = khong),Tinh: Items_In_Order >= 2
+BI_Product_Dim.csv,Product,Text,Ten san pham (khoa chinh),Goc
+BI_Product_Dim.csv,Category,Text,Nhom lon,NLP
+BI_Product_Dim.csv,SubCategory,Text,Nhom con,NLP
+BI_Product_Dim.csv,Price,Currency (USD),Don gia san pham,Goc
+BI_Product_Dim.csv,Total_Qty,Number,Tong so luong ban ca nam 2019,Tinh: sum Quantity Ordered
+BI_Product_Dim.csv,Total_Revenue,Currency (USD),Tong doanh thu ca nam 2019,Tinh: sum Sales
+BI_Product_Dim.csv,Num_Orders,Number,So don hang co chua san pham nay,Tinh: count distinct Order ID
+BI_Association_Rules.csv,Product_A,Text,San pham thu nhat trong cap,Tu basket analysis
+BI_Association_Rules.csv,Product_B,Text,San pham thu hai trong cap,Tu basket analysis
+BI_Association_Rules.csv,Co_Occurrence,Number,So lan 2 san pham xuat hien cung trong 1 don hang,Dem tu don hang co >= 2 SP
+BI_Association_Rules.csv,Support,Decimal,Ty le don hang chua ca 2 san pham / tong don hang,Co_Occurrence / 178437
+BI_Association_Rules.csv,Confidence_A_to_B,Decimal,Xac suat mua B khi da mua A,Support(A∩B) / Support(A)
+BI_Association_Rules.csv,Confidence_B_to_A,Decimal,Xac suat mua A khi da mua B,Support(A∩B) / Support(B)
+BI_Association_Rules.csv,Lift,Decimal,Do manh lien ket: >1 = thuc day nhau; =1 = doc lap; <1 = kim ham,Support(A∩B) / (Support(A) x Support(B))
+BI_SubCategory_CoOccurrence.csv,SubCategory_A,Text,SubCategory thu nhat,Tu basket analysis
+BI_SubCategory_CoOccurrence.csv,SubCategory_B,Text,SubCategory thu hai,Tu basket analysis
+BI_SubCategory_CoOccurrence.csv,Co_Occurrence,Number,So lan 2 SubCategory xuat hien cung trong 1 don hang,Dem tu don hang co >= 2 SubCategory
+BI_SubCategory_CoOccurrence.csv,Support,Decimal,Ty le don hang chua ca 2 SubCategory / tong don hang,Co_Occurrence / 178437
+BI_SubCategory_CoOccurrence.csv,Lift,Decimal,Do manh lien ket giua 2 SubCategory,Support(A∩B) / (Support(A) x Support(B))
+BI_Category_CoOccurrence.csv,Category_A,Text,Category thu nhat,Tu basket analysis
+BI_Category_CoOccurrence.csv,Category_B,Text,Category thu hai,Tu basket analysis
+BI_Category_CoOccurrence.csv,Co_Occurrence,Number,So lan 2 Category xuat hien cung trong 1 don hang,Dem tu don hang co >= 2 Category
+BI_Category_CoOccurrence.csv,Support,Decimal,Ty le don hang chua ca 2 Category / tong don hang,Co_Occurrence / 178437
+BI_Category_CoOccurrence.csv,Lift,Decimal,Do manh lien ket giua 2 Category,Support(A∩B) / (Support(A) x Support(B))
+BI_Order_Summary.csv,Order ID,Text,Ma don hang (khoa chinh - 1 dong = 1 don hang),Goc
+BI_Order_Summary.csv,Order_Date,Datetime,Thoi gian dat hang,Goc
+BI_Order_Summary.csv,City,Text,Thanh pho,Goc
+BI_Order_Summary.csv,Month,Number,Thang (1-12),Goc
+BI_Order_Summary.csv,Hour,Number,Gio dat hang (0-23),Goc
+BI_Order_Summary.csv,DayOfWeek,Text,Thu trong tuan,Tinh tu Order Date
+BI_Order_Summary.csv,DayType,Text,Weekday hoac Weekend,Tinh tu DayOfWeek
+BI_Order_Summary.csv,Total_Items,Number,Tong so luong san pham trong don,Tinh: sum Quantity Ordered
+BI_Order_Summary.csv,Unique_Products,Number,So loai san pham khac nhau trong don,Tinh: count distinct Product
+BI_Order_Summary.csv,Order_Value,Currency (USD),Tong gia tri don hang,Tinh: sum Sales
+BI_Order_Summary.csv,Order_Segment,Text,"Phan khuc: Low, Medium, High",Tinh tu Order_Value
+BI_Order_Summary.csv,Categories,Text,"Danh sach Category trong don (VD: ""Accessories, Electronics"")",Tinh: gom unique Category
+BI_Order_Summary.csv,Is_Multi_Product,Number (0/1),Don hang nhieu san pham (1) hay khong (0),Tinh: Unique_Products >= 2

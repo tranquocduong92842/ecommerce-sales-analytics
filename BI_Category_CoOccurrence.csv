@@ -1,0 +1,7 @@
+Category_A,Category_B,Co_Occurrence,Support,Lift
+Accessories,Electronics,3236,0.018135,0.1326
+Audio,Electronics,2073,0.011618,0.1505
+Accessories,Audio,1104,0.006187,0.0494
+Accessories,Home Appliances,23,0.000129,0.0372
+Electronics,Home Appliances,19,0.000106,0.0499
+Audio,Home Appliances,11,6.2e-05,0.0315

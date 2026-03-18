@@ -1,0 +1,51 @@
+Product_A,Product_B,Co_Occurrence,Support,Confidence_A_to_B,Confidence_B_to_A,Lift
+Lightning Charging Cable,iPhone,1011,0.005666,0.0468,0.1478,1.2208
+Google Phone,USB-C Charging Cable,997,0.005587,0.1806,0.0456,1.4741
+Wired Headphones,iPhone,462,0.002589,0.0245,0.0675,0.6395
+Google Phone,Wired Headphones,422,0.002365,0.0764,0.0224,0.7235
+Apple Airpods Headphones,iPhone,373,0.00209,0.024,0.0545,0.6268
+USB-C Charging Cable,Vareebadd Phone,368,0.002062,0.0168,0.1782,1.455
+Bose SoundSport Headphones,Google Phone,228,0.001278,0.0171,0.0413,0.554
+USB-C Charging Cable,Wired Headphones,203,0.001138,0.0093,0.0108,0.0879
+Vareebadd Phone,Wired Headphones,149,0.000835,0.0722,0.0079,0.6831
+Lightning Charging Cable,Wired Headphones,129,0.000723,0.006,0.0068,0.0565
+Apple Airpods Headphones,Lightning Charging Cable,116,0.00065,0.0075,0.0054,0.0617
+AA Batteries (4-pack),Lightning Charging Cable,106,0.000594,0.0052,0.0049,0.0426
+Bose SoundSport Headphones,USB-C Charging Cable,102,0.000572,0.0077,0.0047,0.0626
+Apple Airpods Headphones,Wired Headphones,100,0.00056,0.0064,0.0053,0.061
+Lightning Charging Cable,USB-C Charging Cable,100,0.00056,0.0046,0.0046,0.0378
+AAA Batteries (4-pack),USB-C Charging Cable,95,0.000532,0.0046,0.0043,0.0377
+AA Batteries (4-pack),AAA Batteries (4-pack),87,0.000488,0.0042,0.0042,0.0367
+AAA Batteries (4-pack),Wired Headphones,86,0.000482,0.0042,0.0046,0.0395
+AA Batteries (4-pack),Wired Headphones,83,0.000465,0.004,0.0044,0.0383
+Bose SoundSport Headphones,Vareebadd Phone,82,0.00046,0.0062,0.0397,0.5328
+AAA Batteries (4-pack),Apple Airpods Headphones,81,0.000454,0.0039,0.0052,0.0452
+AAA Batteries (4-pack),Lightning Charging Cable,80,0.000448,0.0039,0.0037,0.0321
+AA Batteries (4-pack),USB-C Charging Cable,75,0.00042,0.0037,0.0034,0.0298
+Bose SoundSport Headphones,Wired Headphones,74,0.000415,0.0056,0.0039,0.0527
+Bose SoundSport Headphones,Lightning Charging Cable,72,0.000404,0.0054,0.0033,0.0447
+AA Batteries (4-pack),Apple Airpods Headphones,70,0.000392,0.0034,0.0045,0.0392
+Apple Airpods Headphones,USB-C Charging Cable,63,0.000353,0.0041,0.0029,0.0331
+AAA Batteries (4-pack),Bose SoundSport Headphones,57,0.000319,0.0028,0.0043,0.0371
+AA Batteries (4-pack),Bose SoundSport Headphones,55,0.000308,0.0027,0.0041,0.0359
+Apple Airpods Headphones,Bose SoundSport Headphones,50,0.00028,0.0032,0.0038,0.0432
+27in FHD Monitor,USB-C Charging Cable,43,0.000241,0.0057,0.002,0.0468
+27in FHD Monitor,AAA Batteries (4-pack),43,0.000241,0.0057,0.0021,0.0497
+27in FHD Monitor,Lightning Charging Cable,36,0.000202,0.0048,0.0017,0.0397
+27in 4K Gaming Monitor,Lightning Charging Cable,34,0.000191,0.0055,0.0016,0.0451
+34in Ultrawide Monitor,Lightning Charging Cable,33,0.000185,0.0053,0.0015,0.0441
+34in Ultrawide Monitor,AA Batteries (4-pack),32,0.000179,0.0052,0.0016,0.045
+AA Batteries (4-pack),iPhone,32,0.000179,0.0016,0.0047,0.0406
+AAA Batteries (4-pack),iPhone,31,0.000174,0.0015,0.0045,0.0393
+27in 4K Gaming Monitor,AAA Batteries (4-pack),30,0.000168,0.0048,0.0015,0.0418
+USB-C Charging Cable,iPhone,29,0.000163,0.0013,0.0042,0.0346
+27in 4K Gaming Monitor,Wired Headphones,29,0.000163,0.0047,0.0015,0.0441
+34in Ultrawide Monitor,Wired Headphones,28,0.000157,0.0045,0.0015,0.0429
+Google Phone,Lightning Charging Cable,28,0.000157,0.0051,0.0013,0.0419
+AAA Batteries (4-pack),ThinkPad Laptop,27,0.000151,0.0013,0.0065,0.0567
+27in FHD Monitor,Bose SoundSport Headphones,26,0.000146,0.0035,0.002,0.0465
+27in 4K Gaming Monitor,AA Batteries (4-pack),26,0.000146,0.0042,0.0013,0.0363
+34in Ultrawide Monitor,USB-C Charging Cable,26,0.000146,0.0042,0.0012,0.0344
+20in Monitor,Lightning Charging Cable,26,0.000146,0.0063,0.0012,0.0524
+27in FHD Monitor,AA Batteries (4-pack),26,0.000146,0.0035,0.0013,0.0301
+20in Monitor,USB-C Charging Cable,25,0.00014,0.0061,0.0011,0.0498
