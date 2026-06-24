@@ -37,7 +37,7 @@ Online shopping forms a **"Twin Peak" model** daily — 51.9% of all orders conc
 - **Golden Hour:** 19:00 is the absolute daily peak, hottest in 5/7 days on the heatmap
 
 ### 4. Product Mix = Dual Constant
-SubCategory share is virtually **identical across all hours AND all months** (Laptops always ~35%, Phones ~26%). Time of day changes *how many* people buy — not *what* they buy.
+SubCategory share is virtually **identical across all hours AND all months** (Laptops always ~35%, Phones ~26%). Time of day changes *how many* people buy — not *what* they buy, disproving the assumption that evening shoppers buy more expensive products.
 
 ---
 
@@ -68,14 +68,6 @@ SubCategory share is virtually **identical across all hours AND all months** (La
 ├── market_basket_analysis.ipynb    # Python notebook: association rules
 └── E-Commerce Sales Report.docx    # Full bilingual insight report (EN + VI)
 ```
-
----
-
-## Highlights
-
-- **Built a 6-page Looker Studio dashboard** on 185K+ transactions, identifying a Volume-Driven business model where Top 3 products consistently contribute ~80% of revenue across all seasons.
-- **Identified a "Twin Peak" purchasing pattern** through 7-segment hourly behavioral analysis, revealing that 51.9% of orders concentrate in 8 hours — and that product mix remains constant across all time slots, disproving the assumption that evening shoppers buy more expensive products.
-- **Delivered bilingual insight reports** (EN & VI) with data-validated findings: SubCategory-level breakdowns, AOV analysis, and month-over-month comparisons across Growth, Decline, and Surge revenue phases.
 
 ---
 
