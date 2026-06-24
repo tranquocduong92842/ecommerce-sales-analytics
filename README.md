@@ -1,5 +1,7 @@
 # U.S. E-Commerce Sales Analytics Dashboard (2019)
 
+> **Built to answer:** Where should a U.S. e-commerce business invest to grow revenue — and when?
+
 An end-to-end sales analytics project analyzing 185,916 transactions across 19 products and 9 U.S. cities. Built with Google Looker Studio, powered by Python data pipelines.
 
 **[View Live Dashboard →](https://lookerstudio.google.com/reporting/6ce179bf-e92e-4a4a-b607-d5095ab0e2a6)**
