@@ -6,6 +6,8 @@ An end-to-end sales analytics project analyzing 185,916 transactions across 19 p
 
 **[View Live Dashboard →](https://lookerstudio.google.com/reporting/6ce179bf-e92e-4a4a-b607-d5095ab0e2a6)**
 
+![Sales Performance Overview — KPI cards (revenue, orders, AOV), monthly revenue × orders trend, and revenue ranking by category/subcategory](./assets/sales-performance-overview.png)
+
 ---
 
 ## Project Overview
