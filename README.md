@@ -30,13 +30,15 @@ Revenue growth is driven by **order volume, not price**. AOV remains stable at ~
 | Decline | May → Sep | $3.39M → $2.80M (2-wave pattern) |
 | Surge | Oct → Dec | $3.74M → $4.61M (twin peaks at Oct & Dec) |
 
+**→ Q4 (Oct–Dec) alone drives 33% of annual revenue** — marketing budget should front-load Oct–Dec, not spread evenly across the year.
+
 ### 3. Twin Peak Purchasing Pattern
 Online shopping forms a **"Twin Peak" model** daily — 51.9% of all orders concentrated in just 8 hours:
 - **Noon zone (10–13h):** Built up from commute → tab shopping → lunch break burst
 - **Evening zone (18–21h):** Single concentrated burst — home, relaxed, longest free time of day
 - **Golden Hour:** 19:00 is the absolute daily peak, hottest in 5/7 days on the heatmap
 
-### 4. Product Mix = Dual Constant
+### 4. Product Mix Is Stable Across All Hours and Months
 SubCategory share is virtually **identical across all hours AND all months** (Laptops always ~35%, Phones ~26%). Time of day changes *how many* people buy — not *what* they buy, disproving the assumption that evening shoppers buy more expensive products.
 
 ---
