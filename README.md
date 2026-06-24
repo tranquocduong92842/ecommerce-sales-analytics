@@ -27,7 +27,7 @@ Revenue growth is driven by **order volume, not price**. AOV remains stable at ~
 | Phase | Period | Revenue Range |
 |---|---|---|
 | Growth | Jan → Apr | $1.81M → $3.39M |
-| Decline | May → Sep | $3.39M → $2.80M (2-wave pattern) |
+| Decline | May → Sep | $3.15M → $2.10M (2-wave pattern) |
 | Surge | Oct → Dec | $3.74M → $4.61M (twin peaks at Oct & Dec) |
 
 **→ Q4 (Oct–Dec) alone drives 33% of annual revenue** — marketing budget should front-load Oct–Dec, not spread evenly across the year.
