@@ -16,7 +16,7 @@ An end-to-end sales analytics project analyzing 185,916 transactions across 19 p
 |---|---|
 | **Data** | 185,916 orders · 19 products · 9 U.S. cities · Full year 2019 |
 | **Tools** | Google Looker Studio · Python (pandas) · Jupyter Notebook |
-| **Output** | 6-page interactive dashboard + bilingual insight report (EN/VI) |
+| **Output** | 6-page interactive dashboard + insight report |
 
 ---
 
@@ -70,7 +70,7 @@ SubCategory share is virtually **identical across all hours AND all months** (La
 ├── BI_SubCategory_CoOccurrence.csv # SubCategory co-occurrence matrix
 ├── Data_Dictionary.csv             # Field definitions
 ├── market_basket_analysis.ipynb    # Python notebook: association rules
-└── E-Commerce Sales Analytics.pdf  # Full bilingual insight report (EN + VI)
+└── E-Commerce Sales Analytics.pdf  # Full insight report
 ```
 
 ---
