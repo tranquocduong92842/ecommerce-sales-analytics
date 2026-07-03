@@ -70,7 +70,7 @@ SubCategory share is virtually **identical across all hours AND all months** (La
 ├── BI_SubCategory_CoOccurrence.csv # SubCategory co-occurrence matrix
 ├── Data_Dictionary.csv             # Field definitions
 ├── market_basket_analysis.ipynb    # Python notebook: association rules
-└── E-Commerce Sales Report.docx    # Full bilingual insight report (EN + VI)
+└── E-Commerce Sales Analytics.pdf  # Full bilingual insight report (EN + VI)
 ```
 
 ---
