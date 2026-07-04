@@ -62,16 +62,37 @@ SubCategory share is virtually **identical across all hours AND all months** (La
 
 ```
 ├── README.md
-├── BI_Sales_Main.csv               # Main transaction data (185,916 rows, 2019 only)
-├── BI_Order_Summary.csv            # Aggregated order-level data
-├── BI_Product_Dim.csv              # Product dimension table
-├── BI_Association_Rules.csv        # Market basket association rules
-├── BI_Category_CoOccurrence.csv    # Category co-occurrence matrix
-├── BI_SubCategory_CoOccurrence.csv # SubCategory co-occurrence matrix
-├── Data_Dictionary.csv             # Field definitions
-├── market_basket_analysis.ipynb    # Python notebook: association rules
-└── E-Commerce Sales Analytics.pdf  # Full insight report
+├── LICENSE
+├── requirements.txt
+├── assets/
+│   └── sales-performance-overview.png      # Dashboard hero screenshot
+├── data/
+│   ├── raw/
+│   │   └── Sales Data.csv                   # Raw source data (notebook input)
+│   └── processed/
+│       ├── BI_Sales_Main.csv               # Main transaction data (185,916 rows, 2019)
+│       ├── BI_Order_Summary.csv            # Aggregated order-level data
+│       ├── BI_Product_Dim.csv              # Product dimension table
+│       ├── BI_Association_Rules.csv        # Market basket association rules
+│       ├── BI_Category_CoOccurrence.csv    # Category co-occurrence matrix
+│       └── BI_SubCategory_CoOccurrence.csv # SubCategory co-occurrence matrix
+├── notebooks/
+│   └── market_basket_analysis.ipynb        # Python notebook: association rules
+└── reports/
+    ├── E-Commerce Sales Analytics.pdf      # Full insight report
+    └── Data_Dictionary.csv                 # Field definitions
 ```
+
+---
+
+## Setup
+
+```bash
+pip install -r requirements.txt
+jupyter notebook notebooks/market_basket_analysis.ipynb
+```
+
+The notebook reads its source data from `data/raw/Sales Data.csv`.
 
 ---
 
